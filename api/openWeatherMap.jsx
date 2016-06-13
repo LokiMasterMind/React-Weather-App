@@ -1,8 +1,8 @@
 var axios=require("axios");
 
-const WEATHER_MAP_API_URL="http://api.openweathermap.org/data/2.5/weather?units=metric&appid=762b66574cb9277e4ac1cd6815e8c71e";
+const API_KEY="your-api-key";
+const WEATHER_MAP_API_URL=`http://api.openweathermap.org/data/2.5/weather?units=metric&appid=${API_KEY}`;
 
-//&q=Pune,mh
 
 module.exports={
   getTemp:function(location){
