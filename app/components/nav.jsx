@@ -13,7 +13,7 @@ var {Link, IndexLink}=require('react-router');
 //                         <span className="icon-bar"></span>
 //                         <span className="icon-bar"></span>
 //                       </button>
-//                   <IndexLink to="/" className="navbar-brand" >React Weather App</IndexLink>
+//                   <IndexLink to="/" className="navbar-brand" >Weather App</IndexLink>
 //                 </div>
 //                 <div className="navbar-collapse collapse">
 //                   <ul className="nav navbar-nav">
@@ -37,7 +37,7 @@ var Nav=(props) =>
                   <span className="icon-bar"></span>
                   <span className="icon-bar"></span>
                 </button>
-                <IndexLink to="/" className="navbar-brand" >React Weather App</IndexLink>
+                <IndexLink to="/" className="navbar-brand" >Weather App</IndexLink>
               </div>
               <div className="navbar-collapse collapse" id="navbar">
                   <ul className="nav navbar-nav">
