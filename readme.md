@@ -18,7 +18,7 @@ Terminal 2:
 ```
 Open in Browser:
 
-<a href="http://localhost:3000/" >http://localhost:3000/</a>
+<a target="_blank" href="http://localhost:3000/" >http://localhost:3000/</a>
 
 
 ### Enjoy :-)
