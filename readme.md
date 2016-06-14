@@ -6,4 +6,19 @@ To use this repo
 ```
 const API_KEY="your-api-key";
 ```
+## Steps to run :
+Terminal 1: 
+```
+   $ npm install
+   $ wepack -w
+```   
+Terminal 2: 
+```
+   $ node server.js
+```
+Open in Browser:
+
+<a href="http://localhost:3000/" >http://localhost:3000/</a>
+
+
 ### Enjoy :-)
