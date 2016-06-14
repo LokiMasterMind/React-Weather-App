@@ -1,5 +1,19 @@
+var webpack =require('webpack');
 module.exports = {
-  entry: './app/app.jsx',
+  entry: [
+    'script!jquery/dist/jquery.min.js',
+    'script!bootstrap/dist/js/bootstrap.min.js',
+    './app/app.jsx'
+  ],
+  externals:{
+    "jquery":"jQuery"
+  },
+  plugin : [
+    new webpack.ProvidePlugin({
+      "$":'jquery',
+      "jQuery":'jquery'
+    })
+  ],
   output: {
     path: __dirname,
     filename: './public/bundle.js'
@@ -27,7 +41,8 @@ module.exports = {
         },
         test: /\.jsx?$/,
         exclude: /(node_modules|bower_components)/
-      }
+      },
+      { test: /\.(png|woff|woff2|eot|ttf|svg)$/, loader: 'url-loader?limit=100000' }
     ]
   },
   devtool:'cheap-module-eval-source-map'
