@@ -18,7 +18,7 @@ var Example=(props) =>
 {    return(
       <div className="container">
         <div  className="jumbotron">
-          <h2>Examples</h2>
+          <h2 className="page-title">Examples</h2>
             Pune:<br/>
             <p>It's it 29.21 in Pune</p><br/>
             Napgur:<br/>

@@ -17,7 +17,7 @@ var React=require('react');
 var About= (props) =>
       <div className="container">
         <div  className="jumbotron">
-              <h2>About</h2>
+              <h2 className="page-title">About</h2>
               <p>Weather App develop using ReactJs.<br/>
                  Use OpenWeatherMap API to get Temprature of City in Degree.<br/>
                  <br/>
