@@ -9,8 +9,8 @@ var Example=require('Example');
 
 require('style!css!bootstrap/dist/css/bootstrap.min.css');
 
-require('style!css!scss! weatherStyles');
-
+require('style!css!sass!WeatherStyles');
+-
 ReactDOM.render(
   <Router history={hashHistory}>
     <Route path="/" component={Main}>
